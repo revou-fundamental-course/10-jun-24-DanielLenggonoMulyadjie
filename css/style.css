@@ -1,0 +1,119 @@
+body{
+  background-color: rgb(85, 85, 85);
+}
+
+header.header-container{
+  background-color: rgb(30, 31, 31);
+  border-radius: 10px;
+}
+
+h1.headerContent{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 60px;
+  color: white;
+}
+
+main{
+  font-family: sans-serif;
+  color: white;
+}
+
+main.main-container{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(30, 31, 31);
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.textInput{
+  width: 400px;
+  height: 50px;
+  resize: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.textHasil{
+  width: 400px;
+  height: 50px; 
+  resize: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+.textKalkulasi{
+  width: 400px;
+  height: 50px;
+  resize: none;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+}
+
+section.textArea{
+  padding-top: 10px;
+  border-top: 1px solid white;
+  display: flex;
+  resize: none;
+  justify-content: space-between;
+}
+
+section.radioButton{
+  padding-bottom: 30px; 
+}
+
+section.Button{
+  padding-top: 15px; 
+  padding-bottom: 30px;
+}
+
+input.Konversi{
+  width: 90px;
+  height: 30px;
+}
+
+input.Reset{
+  width: 90px;
+  height: 30px;
+}
+
+input.Swap{
+  width: 90px;
+  height: 30px;
+}
+
+section.Formula{
+  border-top: 1px solid white;
+}
+
+.headerFormulaSuhu{
+  font-weight: bold;
+}
+
+.headerFormulaFahrenheit{
+  font-weight: bold;
+}
+
+.S{
+  font-family: Script MT;
+  font-size: 25px;
+  font-style: italic;
+}

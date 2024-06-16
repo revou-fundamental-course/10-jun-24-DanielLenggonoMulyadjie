@@ -9,22 +9,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!--Dibawah Ini Link CSS-->
-<link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-  <header>
-  
+  <header class="header-container">
+    <h1 class="headerContent">KONVERSI SUHU</h1>
   </header>
 
-  <main>
+  <main class="main-container">
+    <section class="textarea">
+      
+      <!--Dibawah Ini Adalah Section Untuk Radio Button-->
+      <section class="radioButton">
+        <header>
+          <p>Silahkan Pilih Konversi Yang Diinginkan Pada Button Dibawah Ini:</p>
+        </header>
+        <!--Dibawah Ini Adalah Section Untuk Pilihan Konversi-->
+        <section>
+          <input type="radio" name="Konversi" value="Celcius (&deg;C) To Fahrenheit (&deg;F)">
+          <label for="Celcius (&deg;C) To Fahrenheit (&deg;F)">Celcius (&deg;C) To Fahrenheit (&deg;F)</label><br>
+          <input type="radio" name="Konversi" value="Fahrenheit (&deg;F) To Celcius (&deg;C)">
+          <label for="Fahrenheit (&deg;F) To Celcius (&deg;C)">Fahrenheit (&deg;C) To Celcius (&deg;F)</label>
+        </section>
+      </section>
+
+      <!--Dibawah Ini Adalah Section Untuk Text Area-->
+      <section class="textArea">
+        <!--Dibawah Ini Adalah Section Untuk Input-->
+        <section>
+          <header>
+            <p>Silahkan Input Suhu Dibawah Ini:</p>
+          </header>
+          <textarea class="textInput" placeholder="Input Suhu (&deg;C)" rows="3" cols="50"></textarea>
+        </section>
+        
+        <!--Dibawah Ini Adalah Section Untuk Hasil-->
+        <section>
+          <header>
+            <p>Dibawah Ini Adalah Hasilnya:</p>
+          </header>
+          <textarea class="textHasil" placeholder="Hasil Konversi (&deg;F)" rows="3" cols="50"></textarea>
+        </section>
+
+        <!--Dibawah Ini Adalah Section Untuk Kalkulasi-->
+        <section>
+          <header>
+            <p>Dibawah Ini Adalah Detail Dari Perhitungannya:</p>
+          </header>
+          <textarea class="textKalkulasi" placeholder="Cara Kalkulasi" rows="3" cols="50"></textarea>
+        </section>
+      </section>
+
+      <!--Dibawah Ini Adalah Section Untuk Button Eksekusi-->
+      <section class="Button">
+        <input type="button" class="Konversi" value="Konversi">
+        <input type="button" class="Reset" value="Reset">
+        <input type="button" class="Swap" value="Swap">
+      </section>
+
+      <!--Dibawah Ini Adalah Section Untuk Detail Formula-->
+      <section class="Formula">
+        <header>
+          <h2>FORMULA KONVERSI</h3>
+        </header>
+
+        <article>
+          <header class="headerFormulaSuhu">
+            <p>Suhu <span class="S">S</span> Celcius (&deg;C) Menjadi Suhu <span class="S">S</span> Derajat Fahrenheit (&deg;F):</p>
+          </header>
+          <section>
+            <p><span class="S">S</span><sub>(&deg;F)</sub> = (<span class="S">S</span><sub>(&deg;C)</sub> x 9/5) + 32</p>
+          </section>
+        </article>
+
+        <article>
+          <header class="headerFormulaFahrenheit">
+            <p>Suhu <span class="S">S</span> Fahrenheit (&deg;F) Menjadi Suhu <span class="S">S</span> Derajat Celcius (&deg;C):</i></p>
+          </header>
+          <section>
+            <p><span class="S">S</span><sub>(&deg;C)</sub> = 9/5 x (<span class="S">S</span><sub>(&deg;F)</sub> - 32)</p>
+          </section>
+        </article>
+
+      </section>
+      
+
+    </section>
 
   </main>
 
   <footer>
-    
+
   </footer>
+
+  <script src="js/script.js"></script>
 
 </body>
 
