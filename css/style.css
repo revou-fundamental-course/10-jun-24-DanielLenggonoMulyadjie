@@ -2,7 +2,7 @@ body{
   background-color: rgb(85, 85, 85);
 }
 
-header.header-container{
+header.headerContainer{
   background-color: rgb(30, 31, 31);
   border-radius: 10px;
 }
@@ -19,12 +19,16 @@ h1.headerContent{
   color: white;
 }
 
+section.radioButton{
+  padding-bottom: 30px; 
+}
+
 main{
   font-family: sans-serif;
   color: white;
 }
 
-main.main-container{
+main.mainContainer{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -35,15 +39,25 @@ main.main-container{
   margin-right: 300px;
 }
 
+section.textArea{
+  padding-top: 10px;
+  border-top: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  resize: none;
+  justify-content: space-between;
+}
+
 .textInput{
   width: 400px;
   height: 50px;
   resize: none;
   border-radius: 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   align-content: center;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .textHasil{
@@ -52,9 +66,10 @@ main.main-container{
   resize: none;
   border-radius: 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   align-content: center;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .textKalkulasi{
@@ -63,21 +78,10 @@ main.main-container{
   resize: none;
   border-radius: 10px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   align-content: center;
   text-align: center;
-}
-
-section.textArea{
-  padding-top: 10px;
-  border-top: 1px solid white;
-  display: flex;
-  resize: none;
-  justify-content: space-between;
-}
-
-section.radioButton{
-  padding-bottom: 30px; 
+  text-transform: uppercase;
 }
 
 section.Button{
@@ -88,19 +92,23 @@ section.Button{
 input.Konversi{
   width: 90px;
   height: 30px;
+  border-radius: 10px;
 }
 
 input.Reset{
   width: 90px;
   height: 30px;
+  border-radius: 10px;
 }
 
-input.Swap{
+input.Reverse{
   width: 90px;
   height: 30px;
+  border-radius: 10px;
 }
 
 section.Formula{
+  padding-top: 5px;
   border-top: 1px solid white;
 }
 
