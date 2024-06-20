@@ -22,28 +22,16 @@
   </header>
 
   <main class="mainContainer">
-    <section class="textarea">
-      
-      <!--Dibawah Ini Adalah Section Untuk Radio Button-->
-      <section class="radioButton">
-        <header>
-          <p>Silahkan Pilih Konversi Yang Diinginkan Pada Button Dibawah Ini:</p>
-        </header>
-        <!--Dibawah Ini Adalah Section Untuk Pilihan Konversi-->
-        <section>
-          <input type="radio" id ="konversiMenjadiFahrenheit" name="Konversi" value="Celcius (&deg;C) To Fahrenheit (&deg;F)">
-          <label for="Celcius (&deg;C) To Fahrenheit (&deg;F)">Celcius (&deg;C) To Fahrenheit (&deg;F)</label><br>
-          <input type="radio" id ="konversiMenjadiCelcius" name="Konversi" value="Fahrenheit (&deg;F) To Celcius (&deg;C)">
-          <label for="Fahrenheit (&deg;F) To Celcius (&deg;C)">Fahrenheit (&deg;C) To Celcius (&deg;F)</label>
-        </section>
-      </section>
+    <header class="mainHeader">
+      <h3>Pada Website Ini Kalian Bisa Konversi Dari Suhu &deg;Celcius menjadi &deg;Fahrenheit Ataupun Sebaliknya</h3>
+    </header>
 
       <!--Dibawah Ini Adalah Section Untuk Text Area-->
       <section class="textArea">
         <!--Dibawah Ini Adalah Section Untuk Input-->
         <section>
           <header>
-            <p id="inputLabel">Silahkan Input Suhu &deg;Celcius Dibawah Ini:</p>
+            <p id="inputLabel">Masukkan Suhu (Celsius):</p>
           </header>
           <textarea class="textInput" id="input" placeholder="Input Suhu (&deg;C)" rows="3" cols="50" oninput="konversiMenjadiFahrenheit(this.value)" ></textarea>
         </section>
@@ -51,7 +39,7 @@
         <!--Dibawah Ini Adalah Section Untuk Hasil-->
         <section>
           <header>
-            <p id="outputLabel">Dibawah Ini Adalah Hasil Suhu &deg;Fahrenheit:</p>
+            <p id="outputLabel">Hasil Konversi (Fahrenheit):</p>
           </header>
           <textarea class="textHasil" id="output" placeholder="Hasil Konversi (&deg;F)" rows="3" cols="50" readonly></textarea>
         </section>
@@ -80,19 +68,19 @@
 
         <article>
           <header class="headerFormulaSuhu">
-            <i class="fa-solid fa-angles-right"></i> Suhu <span class="S">S</span> Celcius (&deg;C) Menjadi Suhu <span class="S">S</span> Derajat Fahrenheit (&deg;F):
+            <i class="fa-solid fa-angles-right"></i> Suhu <span id="S">S</span> Celcius (&deg;C) Menjadi Suhu <span id="S">S</span> Derajat Fahrenheit (&deg;F):
           </header>
           <section>
-            <p><span class="S">S</span><sub>(&deg;F)</sub> = (<span class="S">S</span><sub>(&deg;C)</sub> x 1.8) + 32</p>
+            <p><span id="S">S</span><sub>(&deg;F)</sub> = (<span id="S">S</span><sub>(&deg;C)</sub> x 1.8) + 32</p>
           </section>
         </article>
 
         <article>
           <header class="headerFormulaFahrenheit">
-            <i class="fa-solid fa-angles-right"></i> Suhu <span class="S">S</span> Fahrenheit (&deg;F) Menjadi Suhu <span class="S">S</span> Derajat Celcius (&deg;C):
+            <i class="fa-solid fa-angles-right"></i> Suhu <span id="S">S</span> Fahrenheit (&deg;F) Menjadi Suhu <span id="S">S</span> Derajat Celcius (&deg;C):
           </header>
           <section>
-            <p><span class="S">S</span><sub>(&deg;C)</sub> = 1.8 x (<span class="S">S</span><sub>(&deg;F)</sub> - 32)</p>
+            <p><span id="S">S</span><sub>(&deg;C)</sub> = 1.8 x (<span id="S">S</span><sub>(&deg;F)</sub> - 32)</p>
           </section>
         </article>
 

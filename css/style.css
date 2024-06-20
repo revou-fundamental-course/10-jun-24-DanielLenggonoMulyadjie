@@ -40,8 +40,6 @@ main.mainContainer{
 }
 
 section.textArea{
-  padding-top: 10px;
-  border-top: 1px solid white;
   display: flex;
   flex-wrap: wrap;
   resize: none;
@@ -120,7 +118,7 @@ section.Formula{
   font-weight: bold;
 }
 
-.S{
+#S{
   font-family: Script MT;
   font-size: 25px;
   font-style: italic;
