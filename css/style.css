@@ -1,10 +1,10 @@
 body{
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(255, 255, 255);
 }
 
 header.headerContainer{
-  background-color: rgb(30, 31, 31);
-  border-radius: 10px;
+  background-color: rgb(36, 36, 36);
+  border-radius: 30px;
 }
 
 h1.headerContent{
@@ -12,11 +12,10 @@ h1.headerContent{
   margin-bottom: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family: 'Franklin Gothic Medium';
   font-size: 60px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 section.radioButton{
@@ -33,21 +32,24 @@ main.mainContainer{
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgb(30, 31, 31);
-  border-radius: 10px;
-  margin-left: 300px;
-  margin-right: 300px;
+  background-color: rgb(36, 36, 36);
+  border-radius: 40px;
+}
+
+.mainHeader{
+  text-align: center;
 }
 
 section.textArea{
   display: flex;
   flex-wrap: wrap;
   resize: none;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .textInput{
-  width: 400px;
+  width: 280px;
   height: 50px;
   resize: none;
   border-radius: 10px;
@@ -59,7 +61,7 @@ section.textArea{
 }
 
 .textHasil{
-  width: 400px;
+  width: 280px;
   height: 50px; 
   resize: none;
   border-radius: 10px;
@@ -71,7 +73,7 @@ section.textArea{
 }
 
 .textKalkulasi{
-  width: 400px;
+  width: 280px;
   height: 50px;
   resize: none;
   border-radius: 10px;
@@ -85,6 +87,7 @@ section.textArea{
 section.Button{
   padding-top: 15px; 
   padding-bottom: 30px;
+  text-align: center;
 }
 
 input.Konversi{
@@ -108,6 +111,7 @@ input.Reverse{
 section.Formula{
   padding-top: 5px;
   border-top: 1px solid white;
+  text-align: center;
 }
 
 .headerFormulaSuhu{

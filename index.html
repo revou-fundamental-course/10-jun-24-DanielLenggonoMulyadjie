@@ -33,7 +33,7 @@
           <header>
             <p id="inputLabel">Masukkan Suhu (Celsius):</p>
           </header>
-          <textarea class="textInput" id="input" placeholder="Input Suhu (&deg;C)" rows="3" cols="50" oninput="konversiMenjadiFahrenheit(this.value)" ></textarea>
+          <textarea class="textInput" id="input" placeholder="Input Suhu" rows="3" cols="50" oninput="konversiMenjadiFahrenheit(this.value)" ></textarea>
         </section>
         
         <!--Dibawah Ini Adalah Section Untuk Hasil-->
@@ -41,13 +41,13 @@
           <header>
             <p id="outputLabel">Hasil Konversi (Fahrenheit):</p>
           </header>
-          <textarea class="textHasil" id="output" placeholder="Hasil Konversi (&deg;F)" rows="3" cols="50" readonly></textarea>
+          <textarea class="textHasil" id="output" placeholder="Hasil Konversi" rows="3" cols="50" readonly></textarea>
         </section>
 
         <!--Dibawah Ini Adalah Section Untuk Kalkulasi-->
         <section>
           <header>
-            <p>Dibawah Ini Adalah Detail Dari Perhitungannya:</p>
+            <p>Detail Perhitungan:</p>
           </header>
           <textarea class="textKalkulasi" id="kalkulasi" placeholder="DETAIL PERHITUNGAN" rows="3" cols="50"></textarea>
         </section>
@@ -56,7 +56,7 @@
       <!--Dibawah Ini Adalah Section Untuk Button Eksekusi-->
       <section class="Button">
         <input type="button" class="Konversi" value="Konversi" onclick="buttonKonversi()">
-        <input type="button" class="Reset" value="Reset">
+        <input type="button" class="Reset" value="Reset" onclick="buttonReset()">
         <input type="button" class="Reverse" value="Reverse" onclick="buttonReverse()">
       </section>
 
@@ -80,7 +80,7 @@
             <i class="fa-solid fa-angles-right"></i> Suhu <span id="S">S</span> Fahrenheit (&deg;F) Menjadi Suhu <span id="S">S</span> Derajat Celcius (&deg;C):
           </header>
           <section>
-            <p><span id="S">S</span><sub>(&deg;C)</sub> = 1.8 x (<span id="S">S</span><sub>(&deg;F)</sub> - 32)</p>
+            <p><span id="S">S</span><sub>(&deg;C)</sub> = (<span id="S">S</span><sub>(&deg;F)</sub> - 32) / 1.8 </p>
           </section>
         </article>
 
