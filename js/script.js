@@ -77,8 +77,6 @@ function buttonReverse() {
   // Mendapatkan Nilai Dari Label Dan PlaceHolder
   var inputLabel = document.getElementById("inputLabel").textContent;
   var outputLabel = document.getElementById("outputLabel").textContent;
-  var placeholderInput = document.getElementById("input").placeholder;
-  var placeholderOutput = document.getElementById("output").placeholder;
 
   // Menukar Antara Nilai Input - Output
   document.getElementById("input").value = nilaiOutput;
@@ -87,10 +85,6 @@ function buttonReverse() {
   // Menukar Antara Nilai Label Input dan Output
   document.getElementById("inputLabel").textContent = outputLabel;
   document.getElementById("outputLabel").textContent = inputLabel;
-
-  // Menukar Antara Nilai Placeholder Input dan Output
-  document.getElementById("input").placeholder = placeholderOutput;
-  document.getElementById("output").placeholder = placeholderInput;
 
   // Menukar Fungsi Kondisi Konversi Dari True Ke False
   konversiCelsiusToFahrenheit = !konversiCelsiusToFahrenheit;
